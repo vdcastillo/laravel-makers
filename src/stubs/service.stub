@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Vdcastillo\LaravelMakers\Service;
+use Vdcastillo\LaravelMakers\Service\BaseService;
 //use Your Model
 
 /**
