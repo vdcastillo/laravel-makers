@@ -1,0 +1,27 @@
+{
+    "name": "vdcastillo/laravel-makers",
+    "description": "A simple package to create repositories and services with artisan command for Laravel 5+",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Castillo",
+            "email": "vicdcastillo@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vdcastillo\\LaravelMakers\\MakersServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vdcastillo\\LaravelMakers\\": "src/"
+        },
+        "classmap": ["src/"]
+    }
+}

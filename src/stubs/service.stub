@@ -1,0 +1,21 @@
+<?php
+
+namespace DummyNamespace;
+
+use Vdcastillo\LaravelMakers\Service;
+//use Your Model
+
+/**
+ * Class DummyClass.
+ */
+class DummyClass extends BaseService
+{
+    /**
+     * @return string
+     *  Return the model
+     */
+    public function repository()
+    {
+        //return Repository::class;
+    }
+}
