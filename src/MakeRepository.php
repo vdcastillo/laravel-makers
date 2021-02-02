@@ -6,6 +6,7 @@ use Illuminate\Console\GeneratorCommand;
 
 class MakeRepository extends GeneratorCommand
 {
+    protected $name = 'make:repository';
     /**
      * The name and signature of the console command.
      *

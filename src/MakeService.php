@@ -6,6 +6,7 @@ use Illuminate\Console\GeneratorCommand;
 
 class MakeService extends GeneratorCommand
 {
+    protected $name = 'make:service';
     /**
      * The name and signature of the console command.
      *
