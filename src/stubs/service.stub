@@ -3,19 +3,23 @@
 namespace DummyNamespace;
 
 use Vdcastillo\LaravelMakers\Service\BaseService;
-//use Your Model
 
 /**
  * Class DummyClass.
  */
 class DummyClass extends BaseService
 {
+
+    public function __construct()
+    {
+        //$this->_repository = 'Your instantiated class';
+    }
+
     /**
-     * @return string
-     *  Return the model
+     *  Return the repository
      */
     public function repository()
     {
-        //return Repository::class;
+        return $this->_repository;
     }
 }

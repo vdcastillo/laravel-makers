@@ -7,6 +7,6 @@ namespace Vdcastillo\LaravelMakers\Service;
  */
 abstract class BaseService
 {
-    private $_repository = null;
+    protected $_repository = null;
 
 }
